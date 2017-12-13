@@ -1,0 +1,1000 @@
+  424  git pull
+  425  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  426  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  427  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=50 --max_dec_steps=25 --coverage=1
+  428  ls
+  429  vim run_summarization.py 
+  430  vim attention_decoder.py 
+  431  tmux ls
+  432  tmux new con4
+  433  tmux new -s cont4
+  434  tmux attach -t data
+  435  tmux ls
+  436  tmux attach -t cont4
+  437  tmux new -s cont4
+  438  tmux attach -t cont4
+  439  tmux ls
+  440  tmux attach -t cont4
+  441  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=50 --max_dec_steps=25 --coverage=1
+  442  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  443  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  444  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  445  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  446  ls
+  447  git branch
+  448  git pull
+  449  git branch
+  450  git pull
+  451  git checkout cont4
+  452  vim attention_decoder.py 
+  453  git pull
+  454  ls
+  455  cd .
+  456  cd ..
+  457  l
+  458  git clone https://github.com/dailyfine/summary
+  459  git clone https://github.com/dailyfine/summary summary_4
+  460  ls
+  461  cd summary_4
+  462  ls
+  463  cd ..
+  464  ls
+  465  cd summary
+  466  clear
+  467  ls
+  468  cd ..
+  469  ls
+  470  rm -r summary
+  471  cd pretrainned/
+  472  ls
+  473  rm -r cont4
+  474  cd ..
+  475  ls
+  476  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  477  cd summary
+  478  cd ..
+  479  ls
+  480  cd summary4
+  481  cd summary_4/
+  482  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  483  ls
+  484  vim attention_decoder.py 
+  485  git pull
+  486  vim attention_decoder.py 
+  487  cd ..
+  488  ls
+  489  cd pretrainned/
+  490  ls
+  491  rm -r cont4
+  492  cd ..
+  493  ls
+  494  cd summary_4/
+  495  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  496  git pull
+  497  vim attention_decoder.py 
+  498  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  499  git pull
+  500  git branch
+  501  git checkout cont4
+  502  git add -A .
+  503  git reset --hard
+  504  git checkout cont4
+  505  clear
+  506  ls
+  507  vim attention_decoder.py 
+  508  git pull
+  509  exit
+  510  tmux new -s cont4
+  511  tmux attach conv4
+  512  tmux attach -t conv4
+  513  tmux ls
+  514  tmux attach -t cont4
+  515  exit
+  516  tmux attach -t cont4
+  517  exit
+  518  tmux attach -t cont4
+  519  tmux attach -t cont4
+  520  ls
+  521  cd hs
+  522  ls
+  523  cd successful_summary/
+  524  ls
+  525  vim attention_decoder.py 
+  526  ls
+  527  cd hs
+  528  ls
+  529  cd pretrainned/
+  530  ls
+  531  rm -r cont4
+  532  ls
+  533  cd ..
+  534  ls
+  535  rm -r summary
+  536  rm -rf summary
+  537  clear
+  538  ls
+  539  cd summary_4/
+  540  ls
+  541  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  542  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=50 --max_dec_steps=25 --coverage=1
+  543  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  544  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  545  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  546  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  547  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  548  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  549  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=300 --max_dec_steps=100 --coverage=
+  550  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  551  ls
+  552  cd ..
+  553  ls
+  554  cd pretrainned/
+  555  ls
+  556  cd cont4
+  557  ls
+  558  cd train/
+  559  ls
+  560  vm checkpoint 
+  561  ls
+  562  vim checkpoint 
+  563  d ..
+  564  cd ..
+  565  ls
+  566  cd summary_4/
+  567  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  568  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=400 --max_dec_steps=100 --coverage=
+  569  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=
+  570  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd pretrainned/
+  575  ls
+  576  rm -r cont4
+  577  cd ..
+  578  cd summary_4/
+  579  ls
+  580  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  581  exit
+  582  ls
+  583  cd hs
+  584  ls
+  585  cd successful_summary/
+  586  ls
+  587  vim attention_decoder.py 
+  588  cd ..
+  589  ls
+  590  cp successful_summary/attention_decoder.py summary_4/
+  591  cd summary_4/
+  592  ls
+  593  vim attention_decoder.py 
+  594  git pull
+  595  git branch
+  596  vim attention_decoder.py 
+  597  vim attention_decoder.py 
+  598  git reset --hard
+  599  git pull
+  600  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont4 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  601  cd ..
+  602  ls
+  603  cd pretrainned/cont4
+  604  ls
+  605  cd ..
+  606  ls
+  607  rm -r cont4
+  608  cd ..
+  609  ls
+  610  cd successful_summary/
+  611  ls
+  612  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3_new --max_enc_steps=10 --max_dec_steps=10
+  613  ls
+  614  git brach s3
+  615  git branch s3
+  616  git add .
+  617  git push
+  618  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3_new --max_enc_steps=10 --max_dec_steps=10
+  619  git branch
+  620  git push
+  621  git push --set-upstream-to s3
+  622  git branch --set-upstream s3
+  623  git push
+  624  git pull
+  625  ls
+  626  vim attention_decoder.py 
+  627  git branch
+  628  git checkout s3
+  629  ls
+  630  vim attention_decoder.py 
+  631  git push
+  632  git push . s3
+  633  ls
+  634  git push . s3
+  635  ls
+  636  git branch
+  637  git push
+  638  ls
+  639  git push
+  640  git branch --list
+  641  git add -A .
+  642  git commit -m "test
+  643  "
+  644  git push
+  645  git config --global push.default matching
+  646  git push
+  647  ls
+  648  git commit -m "t"
+  649  git push
+  650  git config --global user.name "dailyfine"
+  651  git push
+  652  git add -A .
+  653  git commit -m "test"
+  654  git config user.email "amorphysics@gmail.com"
+  655  git config user.name "dailyfine"
+  656  git commit -m "test"
+  657  git push
+  658  git remote remove origin
+  659  git remote add https://github.com/dailyfine/summary
+  660  git remote add origin https://github.com/dailyfine/summary
+  661  git push
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd ..
+  666  ls
+  667  cd hs
+  668  ls
+  669  cd successful_summary/
+  670  ls
+  671  git init
+  672  ls
+  673  git remote remove origin
+  674  git remote add origin https://github.com/dailyfine/succ_summary.git
+  675  git push
+  676  git init
+  677  ls
+  678  rm .gint
+  679  rm -rf .git
+  680  ls
+  681  git push
+  682  git init
+  683  git remote add origin https://github.com/dailyfine/succ_summary.git
+  684  git push
+  685  ls
+  686  git checkout master
+  687  ls
+  688  git branch --list
+  689  git branch master
+  690  git branch s3
+  691  git push
+  692  ls
+  693  git branch
+  694  git push -u origin master
+  695  git init
+  696  git remote add origin https://github.com/dailyfine/succ_summary.git
+  697  gir remote remove origin
+  698  git remote remove origin
+  699  git remote add origin https://github.com/dailyfine/succ_summary.git
+  700  git push -u origin master
+  701  ls
+  702  cd .
+  703  cd ..
+  704  ls
+  705  scp -r -P 953 cml2@147.46.174.20:/home/cml2/hs/nlp ./successful_summary
+  706  ls
+  707  cd successful_summary/
+  708  ls
+  709  cd ..
+  710  ls
+  711  scp -r -P 953 ./successful_summary cml2@147.46.174.20:/home/cml2/hs/nlp
+  712  ls
+  713  cd successful_summary/
+  714  ls
+  715  cd ..
+  716  ls
+  717  cd su
+  718  cd summary_4/
+  719  ls
+  720  cd ..
+  721  ls
+  722  cd ..
+  723  cd hs
+  724  ls
+  725  cd successful_summary/
+  726  ls
+  727  rm -r nlp
+  728  rm -rf nl
+  729  rm -rf nlp
+  730  ls
+  731  cd ..
+  732  ls
+  733  scp -r -P 953 ./successful_summary cml2@147.46.174.20:/home/cml2/hs/nlp
+  734  ls
+  735  cd pretrainned/
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd successful_summary/
+  740  ls
+  741  cd ..
+  742  ls
+  743  cd pretrainned/
+  744  ls
+  745  cp successful_HS/ cont3
+  746  cp -r successful_HS cont3
+  747  cd ..
+  748  ls
+  749  tmux --list
+  750  tmux ls
+  751  tmux attach cont3
+  752  tmux attach con4
+  753  tmux attach cont4
+  754  tmux attach -t cont3
+  755  tmux attach -t cont4
+  756  tmux attach -t cont3
+  757  tmux new -s cont
+  758  tmux ls
+  759  tmux attach -t cont
+  760  tmux attach -t cont
+  761  ls
+  762  cd ..
+  763  ls
+  764  cd hyungho2/
+  765  ls
+  766  cd hs
+  767  ls
+  768  pwd
+  769  rm -r pointer-generator/
+  770  rm -rf pointer-generator/
+  771  ls
+  772  rm -rf pointer-generator/
+  773  ls
+  774  clear
+  775  git clone https://github.com/becxer/pointer-generator/
+  776  cd pointer-generator/
+  777  ls
+  778  vim batcher.py 
+  779  vim model.py 
+  780  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  781  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  782  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+  783  cd ..
+  784  ls
+  785  tmux ls
+  786  tmux attach cont
+  787  tmux attach -t cont
+  788  tmux attach -t cont3
+  789  tmux attach -t cont
+  790  ls
+  791  rm -r summary_4/
+  792  rm -rf summary_4/
+  793  clear
+  794  ls
+  795  cd pretrainned/
+  796  ls
+  797  cd cont3
+  798  ls
+  799  cd train/
+  800  ls
+  801  cd ..
+  802  ls
+  803  cd ..
+  804  ls
+  805  cd successful_HS/
+  806  ls
+  807  cd ..
+  808  ls
+  809  cd successful_summary/
+  810  ls
+  811  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  812  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  813  ls
+  814  exit
+  815  tmux ls
+  816  ls
+  817  cd hs
+  818  ls
+  819  tmux attach -t cont1
+  820  exit
+  821  ls
+  822  exit
+  823  ls
+  824  cd hs
+  825  ls
+  826  cd successful_summary/
+  827  ls
+  828  tmux new -s cont2
+  829  tmux new -s cont3
+  830  tmux attch -t cont3
+  831  tmux attach -t cont3
+  832  ls
+  833  cd hs
+  834  ls
+  835  git clone https://github.com/dailyfine/prob
+  836  cd prob
+  837  ls
+  838  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  839  ls
+  840  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  841  ls
+  842  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  843  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  844  ls
+  845  python3 run_summarization.py --mode=traieval data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  846  python3 run_summarization.py --mode=eval data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1[A
+  847  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+  848  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+  849  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+  850  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+  851  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+  852  cd ..
+  853  ls
+  854  cd successful_summary/
+  855  ls
+  856  vim model.py 
+  857  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+  858  cd ..
+  859  ls
+  860  cd ..
+  861  nvidia-smi
+  862  ls
+  863  cd hs
+  864  ls
+  865  tmux 
+  866  l
+  867  cd hs
+  868  l
+  869  tmux ls
+  870  tmux attach -t prob
+  871  exit
+  872  ls
+  873  cd hs
+  874  ls
+  875  cd prob
+  876  nvida-smi
+  877  nvidia-smi
+  878  tmux ls
+  879  tmux attach -t cont3
+  880  ls
+  881  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  882  git pull
+  883  ls
+  884  cd ..
+  885  ls
+  886  cd pr
+  887  rm pretrainned/prob_
+  888  rm -r pretrainned/prob_
+  889  rm -r pretrainned/prob
+  890  cd ..
+  891  ls
+  892  cd hs
+  893  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  894  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_ --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  895  ls
+  896  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  897  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=50 --max_dec_steps=50 --coverage=1 --batch_size=8
+  898  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=200 --max_dec_steps=100 --coverage=1 --batch_size=8
+  899  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=200 --max_dec_steps=50 --coverage=1 --batch_size=8
+  900  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=200 --max_dec_steps=50 --coverage=1 --batch_size=2
+  901  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=200 --max_dec_steps=50 --coverage=1 --batch_size=4
+  902  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=1
+  903  ls
+  904  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=1
+  905  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=1 -hidden_dimension=128
+  906  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=1 -hidden_dim=128
+  907  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=1 --hidden_dim=128
+  908  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_samll_batch --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=4 --hidden_dim=128
+  909  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_128 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=4 --hidden_dim=128
+  910  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=100 --max_dec_steps=50 --coverage=1 --batch_size=8 --hidden_dim=256
+  911  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=10 --max_dec_steps=10 --coverage=1 --batch_size=8 --hidden_dim=256
+  912  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=50 --max_dec_steps=50 --coverage=1 --batch_size=8
+  913  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=100 --max_dec_steps=50 --coverage=1 --batch_size=8
+  914  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=100 --max_dec_steps=50 --coverage=1 --batch_size=8
+  915  ls
+  916  cd ..
+  917  ls
+  918  cd pr
+  919  cd pretrainned/
+  920  ls
+  921  rm -r prob_*
+  922  cd ..
+  923  ls
+  924  cd prob
+  925  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=4 --hidden_dim=128
+  926  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=4 --hidden_dim=128
+  927  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=4 --hidden_dim=128 --vocab_size=1000
+  928  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=2 --hidden_dim=100 --vocab_size=10000
+  929  exit
+  930  tmux ls
+  931  tmux attach -t prob
+  932  ls
+  933  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=2 --hidden_dim=100 --vocab_size=50000
+  934  ls
+  935  cd hs
+  936  ls
+  937  cd prob
+  938  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=2 --hidden_dim=100 --vocab_size=50000
+  939  ls
+  940  cd .
+  941  cd ..
+  942  ls
+  943  cd hyungho2/
+  944  ls
+  945  cd hs
+  946  ls
+  947  cd pr
+  948  cd pretrainned/
+  949  ls
+  950  rm prob*
+  951  rm -r prob*
+  952  cd ..
+  953  ls
+  954  cd prob/
+  955  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=2 --hidden_dim=50 --vocab_size=50000
+  956  ls
+  957  cd hs
+  958  ls
+  959  cd pretrainned/
+  960  ls
+  961  cd pr
+  962  cd pretrained_model_tf1.2.1/
+  963  ls
+  964  vim README
+  965  nvidia-smi
+  966  smi
+  967  nvidia-smi
+  968  nvidia-smi
+  969  tmux attach -t prob
+  970  tmux ls
+  971  tmux new -s prob
+  972  tmux attach -prob
+  973  tmux attach -t prob
+  974  tmux new -s prob
+  975  history
+  976  tmux attach -t prob
+  977  tmux ls
+  978  cd hs/prob/
+  979  ls
+  980  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+  981  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob --max_enc_steps=50 --max_dec_steps=50 --coverage=1
+  982  tmux new -s prob
+  983  ls
+  984  pip3 install tensorboad
+  985  pip3 install tensorboard
+  986  tmux attach -t prob
+  987  tmux attach -t cont3
+  988  tmux attach -t prob
+  989  ls
+  990  cd hs
+  991  ls
+  992  cd prtrai
+  993  cd pretrai
+  994  ls
+  995  cd train
+  996  ls
+  997  cd ..
+  998  ls
+  999  cd .
+ 1000  .ls
+ 1001  ls
+ 1002  cd ..
+ 1003  ls
+ 1004  rm -r pretrai
+ 1005  ls
+ 1006  clear
+ 1007  ls
+ 1008  cd pointer-generator/
+ 1009  ls
+ 1010  cd ..
+ 1011  ls
+ 1012  cd pretrainned/
+ 1013  ls
+ 1014  cd prob_new
+ 1015  ls
+ 1016  cd train
+ 1017  ls
+ 1018  cd ..
+ 1019  ls
+ 1020  cd ..
+ 1021  ls
+ 1022  cd
+ 1023  tmux ls
+ 1024  tmux attach -t prob
+ 1025  tmux ls
+ 1026  tmux ls
+ 1027  nvidia-smi
+ 1028  tmux attach -t prob
+ 1029  tmux ls
+ 1030  nvidia-sim
+ 1031  nvidia-smi
+ 1032  tmux ls
+ 1033  tmux attach -t pob
+ 1034  tmux attach -t prob
+ 1035  tmux attach -t cont3
+ 1036  tmux ls
+ 1037  tmux new cont3
+ 1038  tmux new -s cont3
+ 1039  tmux attach -t cont3
+ 1040  ls
+ 1041  cd hs
+ 1042  ls
+ 1043  cd successful_summary/
+ 1044  history
+ 1045  tmux attach -t cont3
+ 1046  tmux attach -t pvocab
+ 1047  tmux ls
+ 1048  tmux attach -t prob
+ 1049  tmux attach -t cont3
+ 1050  ls
+ 1051  cd hs
+ 1052  ls
+ 1053  cd pr
+ 1054  cd pretrainned/
+ 1055  ls
+ 1056  cd cont3
+ 1057  cd ..
+ 1058  l
+ 1059  tensorboard --logidr=cont3
+ 1060  tensorboard --logdir=cont3
+ 1061  tensorboard --logdir=./cont3
+ 1062  pwd
+ 1063  tensorboar --logdir=/home/hyungho2/hs/pretrainned/cont3
+ 1064  tensorboard --logdir=/home/hyungho2/hs/pretrainned/cont3
+ 1065  ls
+ 1066  cd ..
+ 1067  ls
+ 1068  cd cont3
+ 1069  ls
+ 1070  cd successful_summary/
+ 1071  cd ..
+ 1072  ls
+ 1073  cd pr
+ 1074  cd pretrainned/
+ 1075  ls
+ 1076  cd cont3
+ 1077  ls
+ 1078  tensorboard
+ 1079  exit
+ 1080  ls
+ 1081  cd hs
+ 1082  ls
+ 1083  cd prob/
+ 1084  ls
+ 1085  exit
+ 1086  ls
+ 1087  cd hs
+ 1088  ls
+ 1089  cd ..
+ 1090  ls
+ 1091  cd hs
+ 1092  ls
+ 1093  cd prob/
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  cd successful_summary/
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd pretrainned/
+ 1102  ls
+ 1103  cp -r cont3 best_cont3
+ 1104  rm HS*
+ 1105  rm -r HS*
+ 1106  clear
+ 1107  ls
+ 1108  cd ..
+ 1109  cd successful_summary/
+ 1110  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=2
+ 1111  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=2
+ 1112  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=10 --max_dec_steps=10 --coverage=1
+ 1113  cd ..
+ 1114  ls
+ 1115  cd prob
+ 1116  history
+ 1117  cd ..
+ 1118  ls
+ 1119  cd pretrainned/
+ 1120  ls
+ 1121  rm -r prob*
+ 1122  ls
+ 1123  cd ..
+ 1124  ls
+ 1125  cd prob/
+ 1126  history
+ 1127  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrai
+ 1128  history
+ 1129  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrai
+ 1130  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=10 --max_dec_steps=10 --coverage=1 --batch_size=16 --hidden_dim=50 --vocab_size=50000
+ 1131  history
+ 1132  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=10 --max_dec_steps=10 --coverage=1 --batch_size=16 --hidden_dim=50 --vocab_size=50000
+ 1133  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=50 --max_dec_steps=50 --coverage=1 --batch_size=16 --hidden_dim=50 --vocab_size=50000
+ 1134  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=200 --max_dec_steps=50 --coverage=1 --batch_size=4 --hidden_dim=50 --vocab_size=50000
+ 1135  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=2 --hidden_dim=50 --vocab_size=50000
+ 1136  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=6 --hidden_dim=50 --vocab_size=50000
+ 1137  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1138  ls; ls
+ 1139  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000;run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=10 --hidden_dim=50 --vocab_size=50000; run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=8 --hidden_dim=50 --vocab_size=50000; run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=6 --hidden_dim=50 --vocab_size=50000; run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=4 --hidden_dim=50 --vocab_size=50000
+ 1140  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1141  ls
+ 1142  cd ..
+ 1143  ls
+ 1144  tmux attach -t con3
+ 1145  tmux new cont3
+ 1146  ls
+ 1147  cd pretrainned/
+ 1148  cd ..
+ 1149  ls
+ 1150  cd prob
+ 1151  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=1 --hidden_dim=50 --vocab_size=50000
+ 1152  cd ..
+ 1153  ls
+ 1154  cd pr
+ 1155  cd pretrainned/
+ 1156  ls
+ 1157  pwd
+ 1158  cd ..
+ 1159  ls
+ 1160  cd prob
+ 1161  pwd
+ 1162  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1163  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1164  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1165  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000 --single_pass=1
+ 1166  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1167  exit
+ 1168  tmux attach -t prob
+ 1169  tmux new -s prob
+ 1170  ls
+ 1171  tmux ls
+ 1172  tmux attach -t cont3
+ 1173  l
+ 1174  cd hs
+ 1175  ls
+ 1176  cd successful_summary/
+ 1177  ls
+ 1178  (hspython3) cml2@CML2:~/hs/nlp/successful_summary2$ 
+ 1179  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont2 --max_enc_steps=100 --max_dec_steps=50 --coverage=1
+ 1180  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+ 1181  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+ 1182  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+ 1183  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+ 1184  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.01
+ 1185  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.10
+ 1186  python3 run_summarization.py --mode=eval --data_path=../cnn-dailymail/finished_files/chunked/val_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.0
+ 1187  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.10
+ 1188  python3 run_summarization.py --mode=decode --data_path=../cnndailymail/finished_files/chunked/test_* --vocab_path=../cnndailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+ 1189  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --lr=0.10
+ 1190  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1
+ 1191  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --single_pass=1
+ 1192  cd ..
+ 1193  ls
+ 1194  exit
+ 1195  tmux attach -t prob
+ 1196  ls
+ 1197  cd hs
+ 1198  ls
+ 1199  cd pretrainned/
+ 1200  ls
+ 1201  cd ..
+ 1202  l
+ 1203  cd pretra
+ 1204  ls
+ 1205  cd ..
+ 1206  ls
+ 1207  rm -r pretra
+ 1208  tmux attach -t prob
+ 1209  tmux ls
+ 1210  tmux attach -t prob
+ 1211  ls
+ 1212  tmux attach -t prob
+ 1213  ls
+ 1214  cd hs
+ 1215  ls
+ 1216  cd prob
+ 1217  ls
+ 1218  cd ..
+ 1219  l
+ 1220  cd prob
+ 1221  ls
+ 1222  cd ..
+ 1223  ls
+ 1224  cd pretrainned/
+ 1225  ls
+ 1226  cd prob_new/
+ 1227  ls
+ 1228  cd train
+ 1229  ls
+ 1230  cd ..
+ 1231  ls
+ 1232  exit
+ 1233  ls
+ 1234  cd hs
+ 1235  ls
+ 1236  cd pr
+ 1237  ls
+ 1238  cd pretrainned/
+ 1239  ls
+ 1240  cd con3
+ 1241  cd cont3
+ 1242  ls
+ 1243  tmux attach -t prob
+ 1244  ls
+ 1245  cd ..
+ 1246  ls
+ 1247  cd prob_new/
+ 1248  ls
+ 1249  tmux attach -t prob
+ 1250  ls
+ 1251  cd hs/
+ 1252  ls
+ 1253  cd prob
+ 1254  ls
+ 1255  history
+ 1256  ls
+ 1257  exit
+ 1258  ls
+ 1259  cd hs
+ 1260  ls
+ 1261  cd prob/
+ 1262  ls
+ 1263  history
+ 1264  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretra$nned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1265  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=50 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1266  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1267  ls
+ 1268  cd ..
+ 1269  ls
+ 1270  cd pr
+ 1271  cd pretrainned/
+ 1272  ls
+ 1273  cp -r prob_new/ prob_safte
+ 1274  cd ..
+ 1275  ls
+ 1276  cd ..
+ 1277  ls
+ 1278  cd hs
+ 1279  ls
+ 1280  cd successful_summary/
+ 1281  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1282  ls
+ 1283  cd ..
+ 1284  l
+ 1285  ls
+ 1286  cd pr
+ 1287  cd pretrainned/
+ 1288  ls
+ 1289  cd ..
+ 1290  lls
+ 1291  ls
+ 1292  cd successful_summary/
+ 1293  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=2 --hidden_dim=50 --vocab_size=50000
+ 1294  cd ..
+ 1295  ls
+ 1296  cd prob
+ 1297  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000
+ 1298  ls
+ 1299  python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000 > command
+ 1300  echo hs
+ 1301  echo python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000 > command
+ 1302  ls
+ 1303  vim command 
+ 1304  exit
+ 1305  tmux new -t prob
+ 1306  tmux new -s hs_prob
+ 1307  tmux attach -t prob
+ 1308  ls
+ 1309  cd hs
+ 1310  ls
+ 1311  cd prob
+ 1312  ls
+ 1313  vim command 
+ 1314  tmux ls
+ 1315  tmux attach 4
+ 1316  tmux attach -t 4
+ 1317  tmux attach -t prob
+ 1318  tmux ls
+ 1319  tmux new prob
+ 1320  tmux new -s prob
+ 1321  tmux new -s hsprob
+ 1322  tmux attach -t hsprob
+ 1323  nvidia-smi
+ 1324  vim command 
+ 1325  nvidia-smi
+ 1326  tmux ls
+ 1327  tmux attach -t hsprob
+ 1328  nvidia-smi
+ 1329  tmux attach -t hsprob
+ 1330  nvidia -smi
+ 1331  nvidia-smi
+ 1332  tmux attach -t hsprob
+ 1333  python3
+ 1334  tmux attach -t hsprob
+ 1335  ls
+ 1336  tmux attach -t hsprob
+ 1337  nvidia-smi
+ 1338  ls
+ 1339  cd hs
+ 1340  ls
+ 1341  cd prob
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  cd pretrainned/
+ 1346  ls
+ 1347  cd prob
+ 1348  ls
+ 1349  cd prob_new/
+ 1350  ls
+ 1351  clear
+ 1352  ls
+ 1353  cd train
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  cd ..
+ 1358  ls
+ 1359  cd ..
+ 1360  ls
+ 1361  cd cnn-dailymail/
+ 1362  ls
+ 1363  cd finished_files/
+ 1364  ls
+ 1365  cd ..
+ 1366  ls
+ 1367  cd ..
+ 1368  ls
+ 1369  cd pretrainned/
+ 1370  ls
+ 1371  cd cont3
+ 1372  ls
+ 1373  cd decode
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  cd decode_test_400maxenc_4beam_35mindec_100maxdec_ckpt-84632/
+ 1378  ls
+ 1379  cd decoded/
+ 1380  ls
+ 1381  vim 003665_decoded.txt 
+ 1382  ls
+ 1383  cd hs
+ 1384  ls
+ 1385  cd pretrainned/
+ 1386  cd cont3
+ 1387  ls
+ 1388  cd decode_test_400maxenc_4beam_35mindec_100maxdec_ckpt-84632/
+ 1389  ls
+ 1390  cd reference/
+ 1391  vim 003665_reference.txt 
+ 1392  ls
+ 1393  cd hs
+ 1394  ls
+ 1395  cd p
+ 1396  cd pretrainned/
+ 1397  ls
+ 1398  ls -al
+ 1399  ls
+ 1400  cd cont3
+ 1401  ls
+ 1402  cd decode
+ 1403  cd ..
+ 1404  cd decode_test_400maxenc_4beam_35mindec_100maxdec_ckpt-84632/
+ 1405  ls
+ 1406  cd decoded/
+ 1407  ls
+ 1408  cd ..
+ 1409  ls
+ 1410  cd ..
+ 1411  ls
+ 1412  rm -r decode_test_400maxenc_4beam_35mindec_100maxdec_ckpt-84632/
+ 1413  cd ..
+ 1414  ls
+ 1415  cd successful_summary/
+ 1416  ls
+ 1417  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/
+ 1418  finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 –single_pass=1
+ 1419  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 –single_pass=1
+ 1420  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 –-single_pass=1
+ 1421  python3 run_summarization.py --mode=decode --data_path=../cnn-dailymail/finished_files/chunked/test_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=cont3 --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --single_pass=1
+ 1422  hisotry > fff
+ 1423  history > fff
